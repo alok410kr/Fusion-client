@@ -4,6 +4,7 @@ import { CaretLeft, CaretRight } from "@phosphor-icons/react";
 import Compose from "./ComposeFile";
 import Inbox from "./inbox";
 import Outbox from "./outbox";
+import Track from "./track";
 
 const sections = [
   "Compose File",
@@ -23,6 +24,7 @@ const sectionComponents = {
   "Compose File": Compose,
   Inbox,
   Outbox,
+  Track,
 
   // Add other components here for different sections if needed
   // 'My Fine': MyFineComponent,
